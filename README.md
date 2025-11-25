@@ -153,19 +153,6 @@ sudo -u kiosk dbus-launch gsettings set org.gnome.desktop.wm.keybindings switch-
 sudo -u kiosk dbus-launch gsettings set org.gnome.desktop.wm.keybindings close "[]"
 ```
 
-### Kustomisasi URL
-
-Edit file `/home/kiosk/start-kiosk.sh` dan ganti URL di baris terakhir:
-
-```bash
-sudo nano /home/kiosk/start-kiosk.sh
-```
-
-Ganti URL sesuai kebutuhan:
-
-```bash
-"https://www.example.com"
-```
 
 ### Opsi Chromium Tambahan
 
